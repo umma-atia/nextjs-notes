@@ -13,7 +13,6 @@ Next.js সেই কাজগুলো built-in ভাবে হ্যান্
 - প্রতিটি request এর সময় server থেকে HTML তৈরি হয়, যা seo-প্রিয়।
 - এটি দ্রুত প্রথম লোডের জন্য সহায়ক।
 
-```javascript
 export async function getServerSideProps() {
   return { props: { data: "Hello" } }
 }
@@ -22,7 +21,7 @@ export async function getServerSideProps() {
 build এর সময়েই HTML তৈরি হয়, ফলে পারফরম্যান্স খুবই দ্রুত হয়।
 বিশেষ করে ব্লগ, ল্যান্ডিং পেজের জন্য উপযুক্ত।
 কোড উদাহরণ:
-```javascript
+javascript
 export async function getStaticProps() {
   return { props: { posts: [] } }
 }
@@ -44,7 +43,7 @@ pages/api/user.js → /api/user
 ### 6️⃣ SEO Support
 <Head> কম্পোনেন্ট ব্যবহার করে meta tags সেট করা যায়।
 উদাহরণ:
-```
+typescript
 import Head from "next/head"
 
 ## 🔹 When to Use Next.js?
