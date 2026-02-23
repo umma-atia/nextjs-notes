@@ -55,8 +55,8 @@ pages/api/user.js → /api/user
 ## Summary (Day 2 Learning)
 Next.js হলো React এর উপর ভিত্তি করে তৈরি একটি শক্তিশালী ফ্রেমওয়ার্ক, যা:
 
-*SSR এবং SSG এর মাধ্যমে পারফরম্যান্স উন্নত করে
-*Routing সহজ করে
-*API তৈরি সম্ভব করে
-*SEO এবং পারফরম্যান্সে উন্নত
-*Production-ready React framework
+* SSR এবং SSG এর মাধ্যমে পারফরম্যান্স উন্নত করে
+* Routing সহজ করে
+* API তৈরি সম্ভব করে
+* SEO এবং পারফরম্যান্সে উন্নত
+* Production-ready React framework
