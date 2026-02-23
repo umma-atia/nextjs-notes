@@ -6,6 +6,8 @@ These are my personal notes while learning Next.js.
 - Fundamentals Next.js
 - What is Next.js
 - Renderings
+- Caching
+- Renderings vs Caching
 - Project setup & structure 
 - Routing & Navigation 
 - Error handling & Loading States 
