@@ -21,10 +21,11 @@ export async function getServerSideProps() {
 build এর সময়েই HTML তৈরি হয়, ফলে পারফরম্যান্স খুবই দ্রুত হয়।
 বিশেষ করে ব্লগ, ল্যান্ডিং পেজের জন্য উপযুক্ত।
 কোড উদাহরণ:
-javascript
+```javascript
 export async function getStaticProps() {
   return { props: { posts: [] } }
 }
+```
 ### 3️⃣ File-based Routing
 pages ফোল্ডারের ফাইল থেকে সরাসরি route তৈরি হয়।
 আলাদা router configuration এর দরকার হয় না।
@@ -43,9 +44,9 @@ pages/api/user.js → /api/user
 ### 6️⃣ SEO Support
 <Head> কম্পোনেন্ট ব্যবহার করে meta tags সেট করা যায়।
 উদাহরণ:
-typescript
+```typescript
 import Head from "next/head"
-
+```
 ## 🔹 When to Use Next.js?
 -SEO দরকার হলে
 -দ্রুত লোড হওয়া ওয়েবসাইট বানাতে চাইলে
