@@ -8,7 +8,8 @@ These are my personal notes while learning Next.js.
 - Renderings
 - Caching
 - Renderings vs Caching
-- Project setup & structure 
+- Project setup & structure
+- Layouts & Pages
 - Routing & Navigation 
 - Error handling & Loading States 
 - Component types
